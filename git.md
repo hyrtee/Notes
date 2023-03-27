@@ -59,4 +59,4 @@ $ man git-<verb>
 
 日志或中间文件，无需纳入Git管理，也防止提交多余的无关文件
 
-[常用.gitignore 文件列表](.com/github/gitignore 找)
+[常用.gitignore 文件列表](https://github.com/github/gitignore)
