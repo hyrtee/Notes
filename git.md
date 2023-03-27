@@ -81,4 +81,4 @@ $ man git-<verb>
 
 - 仅使用rm，从工作目录中手工删除文件，则运行git status时会出现Changes not staged for commit，需要再次运行git rm，才能删除该文件
 
-![](C:\Users\htre\AppData\Roaming\marktext\images\2023-03-27-13-59-22-image.png)
+具体分析详见[博客](https://blog.csdn.net/qq_40466537/article/details/129794560)
