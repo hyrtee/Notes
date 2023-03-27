@@ -60,3 +60,25 @@ $ man git-<verb>
 日志或中间文件，无需纳入Git管理，也防止提交多余的无关文件
 
 [常用.gitignore 文件列表](https://github.com/github/gitignore)
+
+### git diff
+
+对比已修改和已暂存的部分
+
+- git diff --staged/cached：对比已暂存和已提交的部分
+
+### git commit
+
+提交更新，会打开默认的编辑器，如vim，输入注释信息
+
+- git commit -m “message”：将提交信息与命令放在同一行
+
+- git git commit -a -m：跳过暂存，直接提交已跟踪过的所有文件。 
+
+### git rm
+
+从已跟踪文件清单中删除，并连带从工作目录中删除指定文件
+
+- 仅使用rm，从工作目录中手工删除文件，则运行git status时会出现Changes not staged for commit，需要再次运行git rm，才能删除该文件
+
+![](C:\Users\htre\AppData\Roaming\marktext\images\2023-03-27-13-59-22-image.png)
