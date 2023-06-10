@@ -31,3 +31,5 @@
 挂载fat32格式U盘：mount -t vfat /dev/sdb1 /media
 
 挂载NTFS格式U盘：mount -t nfs /dev/sdb1 /media
+
+test
