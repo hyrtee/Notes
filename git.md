@@ -79,8 +79,6 @@ git commit --amend
 
 - 自上次提交后，有修改，则覆盖之前提交快照
 
-
-
 ### git rm
 
 从已跟踪文件清单中删除，并连带从工作目录中删除指定文件
@@ -126,11 +124,13 @@ git commit --amend
 
 - git reset HEAD < file >
 
-
-
 ### git checkout
 
 比较危险
+
+#### 基于某次commit，新建分支
+
+git checkout -b bl31-test 8bef222693cfdfdd34bde1345d54cc804e066fe7
 
 #### 取消已修改的文件
 
@@ -150,4 +150,4 @@ git commit --amend
 
 - rm：移除一个远程仓库
 
-- 
+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

@@ -10,8 +10,6 @@
 
 最常用：grep “text” ./ -rn
 
-
-
 ## 远程桌面
 
 ### VNC
@@ -33,9 +31,3 @@
 挂载fat32格式U盘：mount -t vfat /dev/sdb1 /media
 
 挂载NTFS格式U盘：mount -t nfs /dev/sdb1 /media
-
-
-
-
-
-
